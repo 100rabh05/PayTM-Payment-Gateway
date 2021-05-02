@@ -1,0 +1,18 @@
+1.Get API Key Details (You Should have KYC verified Paytm Account)
+  https://dashboard.paytm.com/next/apikeys
+  in the Developer Setting Section you will get API Keys
+
+2.Go on https://developer.paytm.com/docs?utm_source=Business_Website
+  Click on Getting Started ->Choose integration solution(Website or Mobile).
+
+3.Online payments with Redirection flow - Deprecated (In this Section you will get Code Snippet).
+
+4.Copy Code Snippet for Generating ChecksumHash (we are using here .NET code snippet).
+
+5.Goto Visual Studio -> Create New Project -> Provide Name of Project & Location Path -> Select Template as ASP.NET WebForms(C#).
+
+6.Add WebForm & Add Copied Code from step no 4 into the Webform in PageLoad()
+
+7.Configure values & add Paytm dll reference.
+
+8.Create Response Page to know Payment status.
